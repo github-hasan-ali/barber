@@ -1,0 +1,8 @@
+<form [formGroup]="addUserForm" (ngSubmit)="addLoginUser()">
+  <input type="text" formControlName="imgUrl" placeholder="imgUrl">
+  <input type="text" formControlName="firstName" placeholder="firstName">
+  <input type="text" formControlName="lastName" placeholder="lastName">
+  <input type="text" formControlName="email" placeholder="email">
+  <input type="text" formControlName="password" placeholder="password">
+  <button type="submit">Add</button>
+</form>

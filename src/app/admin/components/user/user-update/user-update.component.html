@@ -1,0 +1,8 @@
+<form [formGroup]="updateUserForm" (ngSubmit)="updateUser()">
+  <input type="text" formControlName="id" placeholder="id">
+  <input type="text" formControlName="imageUrl" placeholder="imageUrl">
+  <input type="text" formControlName="firstName" placeholder="firstName">
+  <input type="text" formControlName="lastName" placeholder="lastName">
+  <input type="text" formControlName="email" placeholder="email">
+  <button type="submit">Update</button>
+</form>
